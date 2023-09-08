@@ -4,26 +4,20 @@ namespace SemRespUnica
 {
     class SistemaDeVendas
     {
-        private Dictionary<string, Produto> produtos = new Dictionary<string, Produto>();
-        private Dictionary<string, string> clientes = new Dictionary<string, string>();
+        private List<Produto> produtos = new List<Produto>();
+        private List<Cliente> clientes = new List<Cliente>();
 
-        public void AdicionarProduto(string nome, double preco, int quantidadeEmEstoque)
+        public void AdicionarProduto(Produto produto)
         {
-            if (!produtos.ContainsKey(nome))
-            {
-                produtos[nome] = new Produto(nome, preco, quantidadeEmEstoque);
-            }
-            else
-            {
-                produtos[nome].Estoque += quantidadeEmEstoque;
-            }
+            produtos.Add(produto);
         }
 
-        public void RemoverProduto(string nome, int quantidade)
+        public void RemoverProduto(Produto produto, int quantidade)
         {
-            if (produtos.ContainsKey(nome) && produtos[nome].Estoque >= quantidade)
+            var produtoNoEstoque = produtos.Find(p => p.Nome == produto.Nome);
+            if (produtoNoEstoque != null && produtoNoEstoque.Estoque >= quantidade)
             {
-                produtos[nome].Estoque -= quantidade;
+                produtoNoEstoque.Estoque -= quantidade;
             }
             else
             {
@@ -31,26 +25,23 @@ namespace SemRespUnica
             }
         }
 
-        public void AdicionarCliente(string nome, string email)
+        public void AdicionarCliente(Cliente cliente)
         {
-            clientes[nome] = email;
+            clientes.Add(cliente);
         }
 
         public double ObterPrecoProduto(string nome)
         {
-            if (produtos.ContainsKey(nome))
-            {
-                return produtos[nome].Preco;
-            }
-            return 0.0;
+            var produto = produtos.Find(p => p.Nome == nome);
+            return produto != null ? produto.Preco : 0.0;
         }
 
-        public void ProcessarPagamento(string nomeCliente, double total)
+        public void ProcessarPagamento(Cliente cliente, double total)
         {
-            if (clientes.ContainsKey(nomeCliente))
+            if (clientes.Contains(cliente))
             {
                 // Lógica para processar o pagamento aqui
-                Console.WriteLine($"Pagamento de {total} processado para o cliente {nomeCliente} ({clientes[nomeCliente]})");
+                Console.WriteLine($"Pagamento de {total} processado para o cliente {cliente.Nome} ({cliente.Email})");
             }
         }
     }
