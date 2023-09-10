@@ -1,0 +1,14 @@
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\obj\Debug\net6.0\PrincipioDaResponsabilidadeUnica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\obj\Debug\net6.0\PrincipioDaResponsabilidadeUnica.AssemblyInfoInputs.cache
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\obj\Debug\net6.0\PrincipioDaResponsabilidadeUnica.AssemblyInfo.cs
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\obj\Debug\net6.0\PrincipioDaResponsabilidadeUnica.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\bin\Debug\net6.0\PrincipioDaResponsabilidadeUnica.exe
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\bin\Debug\net6.0\PrincipioDaResponsabilidadeUnica.deps.json
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\bin\Debug\net6.0\PrincipioDaResponsabilidadeUnica.runtimeconfig.json
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\bin\Debug\net6.0\PrincipioDaResponsabilidadeUnica.dll
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\bin\Debug\net6.0\PrincipioDaResponsabilidadeUnica.pdb
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\obj\Debug\net6.0\PrincipioDaResponsabilidadeUnica.dll
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\obj\Debug\net6.0\refint\PrincipioDaResponsabilidadeUnica.dll
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\obj\Debug\net6.0\PrincipioDaResponsabilidadeUnica.pdb
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\obj\Debug\net6.0\PrincipioDaResponsabilidadeUnica.genruntimeconfig.cache
+C:\Users\Pichau\source\repos\LP3-PrincipioDaResponsabilidadeUnica\Branch-Grabriel\PrincipioDaResponsabilidadeUnica\obj\Debug\net6.0\ref\PrincipioDaResponsabilidadeUnica.dll
