@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PrincipioDaResponsabilidadeUnica",
+    "\\PrincipioDaResponsabilidadeUnica\\AplicandoPrincipio",
+    "\\PrincipioDaResponsabilidadeUnica\\SemPrincipio"
   ],
-  "SelectedNode": "\\C:\\Users\\g_b_r\\Source\\Repos\\LP3-PrincipioDaResponsabilidadeUnica",
+  "SelectedNode": "\\PrincipioDaResponsabilidadeUnica\\AplicandoPrincipio\\Cliente.cs",
   "PreviewInSolutionExplorer": false
 }
